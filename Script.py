@@ -1,6 +1,5 @@
 class script(object):
-    START_TXT = """<b>​​​ʜɪɪ 👋, 
-ɪ ᴀᴍ ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴇᴅɪᴀ ᴘʀᴏᴠɪᴅᴇʀ ʙᴏᴛ. ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇᴅ ᴀʟʟ ʟᴀᴛᴇꜱᴛ ᴍᴏᴠɪᴇꜱ ᴏʀ ꜱᴇʀɪᴇꜱ. ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ .</b>"""
+    START_TXT = """<b>ʜᴇʏ {}, {}\n\n✦ ɪ ᴀᴍ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ-ғɪʟᴛᴇʀ ʙᴏᴛ.\n✦ ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ᴀɴᴅ ᴡᴇʙ sᴇʀɪᴇs.\n✦ ɪᴛs ᴇᴀsʏ ᴛᴏ ᴜsᴇ ᴍᴇ. ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ.\n\n<a href="https://t.me/SA_Bots">©ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ SA_Bᴏᴛꜱ</a></b>"""
 
     FEATURES_TXT = """<b>ʜᴇʀᴇ ɪꜱ ᴀʟʟ ᴍʏ ꜰᴜɴᴛɪᴏɴꜱ.</b>"""
 
@@ -10,7 +9,7 @@ class script(object):
 ├⍟ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
 ├⍟ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> 
 ├⍟ ᴅᴀᴛᴀʙᴀꜱᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
-├⍟ ꜱᴇʀᴠᴇʀ : <a href='https://heroku.com/'>ʜᴇʀᴏᴋᴜ</a> 
+├⍟ ꜱᴇʀᴠᴇʀ : <a href='https://www.koyeb.com/'>ᴋᴏʏᴇʙ</a> 
 ├⍟ ꜱᴛᴀᴛᴜꜱ : ᴠ4.8 [ ꜱᴛᴀʙʟᴇ ]
 ╰───────────────⍟</b>"""
 
@@ -72,21 +71,21 @@ class script(object):
 
 2:- ᴍᴀᴋᴇ <a href=https://t.me/{}</a> ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
 
-3:- ᴄʀᴇᴀᴛᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ᴀɴʏ sʜᴏʀᴛɴᴇʀ ʟɪᴋᴇ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴜsᴇ ᴛʜɪs ʙᴇsᴛ sʜᴏʀᴛɴᴇʀ <a href=https://zipshort.net/ref/noyanbanerjee>ᴢɪᴘꜱʜᴏʀᴛ</a>.
+3:- ᴄʀᴇᴀᴛᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ᴀɴʏ sʜᴏʀᴛɴᴇʀ ʟɪᴋᴇ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴜsᴇ ᴛʜɪs ʙᴇsᴛ sʜᴏʀᴛɴᴇʀ <a href=https://linkpays.in/ref/ShahidAlam086>ʟɪɴᴋᴘᴀʏꜱ</a>.
 
 4:- ᴛʜᴇɴ sᴇᴛ ʏᴏᴜʀ sʜᴏʀᴛɴᴇʀ ᴅᴇᴛᴀɪʟs ʙʏ ᴛʜɪs ꜰᴏʀᴍᴀᴛ 👇
 
-<code>/set_shortner omegalinks.in a7ac9b3012c67d7491414cf272d82593c75f6cbb</code>
+<code>/set_shortner linkpays.in df4a166033c268c86a7d6588b0ce4c23bf5045e7</code>
 
-<code>/set_shortner_2 mdiskshortner.link e7beb3c8f756dfa15d0bec495abc65f58c0dfa95</code>
+<code>/set_shortner_2 linkpays.in df4a166033c268c86a7d6588b0ce4c23bf5045e7</code>
 
-<code>/set_shortner_3 mdiskshortner.link e7beb3c8f756dfa15d0bec495abc65f58c0dfa95</code>
+<code>/set_shortner_3 linkpays.in df4a166033c268c86a7d6588b0ce4c23bf5045e7</code>
 
-<code>/set_tutorial https://t.me/DwldMS/19</code>
+<code>/set_tutorial https://t.me/How_to_download_movies_in_group/4</code>
 
-<code>/set_tutorial_2 https://t.me/DwldMS/20</code>
+<code>/set_tutorial_2 https://t.me/How_to_download_movies_in_group/4</code>
 
-<code>/set_tutorial_3 https://t.me/DwldMS/20</code>
+<code>/set_tutorial_3 https://t.me/How_to_download_movies_in_group/4</code>
 
 <code>/set_time 300</code>
 
@@ -266,35 +265,32 @@ Nᴀᴍᴇ - {}
 ᴀʟʟ ᴛʜᴇ ꜰɪʟᴇꜱ ɪɴ ᴛʜɪꜱ ʙᴏᴛ ᴀʀᴇ ꜰʀᴇᴇʟʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛʜᴇ ɪɴᴛᴇʀɴᴇᴛ ᴏʀ ᴘᴏꜱᴛᴇᴅ ʙʏ ꜱᴏᴍᴇʙᴏᴅʏ ᴇʟꜱᴇ. ᴊᴜꜱᴛ ꜰᴏʀ ᴇᴀꜱʏ ꜱᴇᴀʀᴄʜɪɴɢ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ɪɴᴅᴇxɪɴɢ ꜰɪʟᴇꜱ ᴡʜɪᴄʜ ᴀʀᴇ ᴀʟʀᴇᴀᴅʏ ᴜᴘʟᴏᴀᴅᴇᴅ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ. ᴡᴇ ʀᴇꜱᴘᴇᴄᴛ ᴀʟʟ ᴛʜᴇ ᴄᴏᴘʏʀɪɢʜᴛ ʟᴀᴡꜱ ᴀɴᴅ ᴡᴏʀᴋꜱ ɪɴ ᴄᴏᴍᴘʟɪᴀɴᴄᴇ ᴡɪᴛʜ ᴅᴍᴄᴀ ᴀɴᴅ ᴇᴜᴄᴅ. ɪꜰ ᴀɴʏᴛʜɪɴɢ ɪꜱ ᴀɢᴀɪɴꜱᴛ ʟᴀᴡ ᴘʟᴇᴀꜱᴇ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ꜱᴏ ᴛʜᴀᴛ ɪᴛ ᴄᴀɴ ʙᴇ ʀᴇᴍᴏᴠᴇᴅ ᴀꜱᴀᴘ. ɪᴛ ɪꜱ ꜰᴏʀʙɪʙʙᴇɴ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ, ꜱᴛʀᴇᴀᴍ, ʀᴇᴘʀᴏᴅᴜᴄᴇ, ꜱʜᴀʀᴇ ᴏʀ ᴄᴏɴꜱᴜᴍᴇ ᴄᴏɴᴛᴇɴᴛ ᴡɪᴛʜᴏᴜᴛ ᴇxᴘʟɪᴄɪᴛ ᴘᴇʀᴍɪꜱꜱɪᴏɴ ꜰʀᴏᴍ ᴛʜᴇ ᴄᴏɴᴛᴇɴᴛ ᴄʀᴇᴀᴛᴏʀ ᴏʀ ʟᴇɢᴀʟ ᴄᴏᴘʏʀɪɢʜᴛ ʜᴏʟᴅᴇʀ. ɪꜰ ʏᴏᴜ ʙᴇʟɪᴇᴠᴇ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴠɪᴏʟᴀᴛɪɴɢ ʏᴏᴜʀ ɪɴᴛᴇʟʟᴇᴄᴛᴜᴀʟ ᴘʀᴏᴘᴇʀᴛʏ, ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ʀᴇꜱᴘᴇᴄᴛɪᴠᴇ ᴄʜᴀɴɴᴇʟꜱ ꜰᴏʀ ʀᴇᴍᴏᴠᴀʟ. ᴛʜᴇ ʙᴏᴛ ᴅᴏᴇꜱ ɴᴏᴛ ᴏᴡɴ ᴀɴʏ ᴏꜰ ᴛʜᴇꜱᴇ ᴄᴏɴᴛᴇɴᴛꜱ, ɪᴛ ᴏɴʟʏ ɪɴᴅᴇx ᴛʜᴇ ꜰɪʟᴇꜱ ꜰʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ. 
 </b>"""
 
-    PREMIUM_TEXT = """<blockquote>🎖️ <b>ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs</b></blockquote>
+    PREMIUM_TEXT = """⍟──[ 🔥 ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs 🔥 ]──⍟
+✪ ₹15 -  1 Wᴇᴇᴋ [ ᴛʀɪᴀʟ ]
+✪ ₹39 -  1 Mᴏɴᴛʜ
+✪ ₹69 -  2 Mᴏɴᴛʜs
+✪ ₹99 -  3 Mᴏɴᴛʜs
+✪ ₹179 - 6 Mᴏɴᴛʜs
+✪ ₹299 - 1 Yᴇᴀʀ
+•────•────•────•─────
+💵 ᴜᴘɪ ɪᴅ - <code>sabots@ybl</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
 
-◉ 07 ᴅᴀʏꜱ - 15 ₹
-◉ 15 ᴅᴀʏꜱ - 30 ₹
-◉ 01 ᴍᴏɴᴛʜꜱ - 60 ₹
-◉ 02 ᴍᴏɴᴛʜꜱ - 120 ₹
-◉ 03 ᴍᴏɴᴛʜꜱ - 220 ₹
-
-•─────•─────────•─────•
-💵 ᴜᴘɪ ɪᴅ - ⚠️ <b><u>ᴛʜɪꜱ ꜱᴇʀᴠɪᴄᴇ ɪꜱ ᴛᴇᴍᴘᴏʀᴀʀʏ ᴄʟᴏꜱᴇᴅ.</u></b>
-
-🏷️ <a href='https://t.me/+blcE2jS-iGtkMjNl'>ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴘʀᴏᴏꜰ</a>
-
-‼️ ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
-‼️ ᴀꜰᴛᴇʀ ꜱᴇɴᴅɪɴɢ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ɢɪᴠᴇ ᴜꜱ ꜱᴏᴍᴇᴛɪᴍᴇꜱ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪꜱᴛ."""
+💢 ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
+‼️ ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴍᴇ sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ."""
    
     
-    BPREMIUM_TXT = """<blockquote>🎁 <b>ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ</b> :</blockquote>
-
-○ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪꜰʏ
-○ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋꜱ
-○ ᴅɪʀᴇᴄᴛ ꜰɪʟᴇꜱ   
-○ ᴀᴅ-ꜰʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ 
-○ ʜɪɢʜ-ꜱᴘᴇᴇᴅ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ                         
-○ ᴍᴜʟᴛɪ-ᴘʟᴀʏᴇʀ ꜱᴛʀᴇᴀᴍɪɴɢ ʟɪɴᴋꜱ                           
-○ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇꜱ & ꜱᴇʀɪᴇꜱ                                                                        
-○ ꜰᴜʟʟ ᴀᴅᴍɪɴ ꜱᴜᴘᴘᴏʀᴛ                              
-○ ʀᴇǫᴜᴇꜱᴛ ᴡɪʟʟ ʙᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ɪɴ 1ʜ [ ɪꜰ ᴀᴠᴀɪʟᴀʙʟᴇ ]
-
+    BPREMIUM_TXT = """
+╭──🎁 ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs 🎁──╮
+│ • ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪғʏ                       
+│ • ᴅɪʀᴇᴄᴛ ғɪʟᴇs  
+│ • ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ 
+│ • ʜɪɢʜ-sᴘᴇᴇᴅ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ                         
+│ • ᴍᴜʟᴛɪ-ᴘʟᴀʏᴇʀ sᴛʀᴇᴀᴍɪɴɢ ʟɪɴᴋs                           
+│ • ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs                              
+│ • ʜɪɢʜ ǫᴜᴀʟɪᴛʏ ᴀᴠᴀɪʟᴀʙʟᴇ                                           
+│ • ꜰᴜʟʟ ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ                              
+│ • ʀᴇǫᴜᴇsᴛ ᴡɪʟʟ ʙᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ɪɴ 1 ʜᴏᴜʀ ɪꜰ ᴀᴠᴀɪʟᴀʙʟᴇ   
+╰───────────────────╯
 • ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ ʙʏ ʀᴇꜰᴇʀɪɴɢ ʏᴏᴜʀ ꜰʀɪᴇɴᴅꜱ ᴏʀ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ ꜱᴇʀᴠɪᴄᴇ 
 
 •─────•─────────•─────•
@@ -311,7 +307,13 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/SilentXBotz">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a https://t.me/SilentXBotz>[SilentXBotz]</a></b>"""
+    CAPTION = """{file_name}({file_size})
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+Click the link below and join the group and download the movie. Otherwise the file will not work.
+🚦Group 1👉 <a href=https://t.me/+Y32snQsuAis0YWQ1>📽 ᴄɪɴᴇᴍᴀ ɢᴀʟᴀxʏ📽</a></b>
+🚦Group 2👉 <a href=https://t.me/SA_movie_request_group>🟢 sᴀ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ 🟢</a></b>
+🚦Group 3👉 <a href=https://t.me/Cinema_Hub_Entertainment>⭕Cɪɴᴇᴍᴀ Hᴜʙ Eɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ</a></b>
+🚦Group 4👉 <a href=https://t.me/Movie_junctiongrup>🎗 ᴍᴏᴠɪᴇ ᴊᴜɴᴄᴛɪᴏɴ 🎗</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
@@ -331,14 +333,7 @@ Requested by : {message.from_user.mention}</b>"""
 🌐 ᴛɪᴍᴇᴢᴏɴᴇ : <code>ᴀꜱɪᴀ/ᴋᴏʟᴋᴀᴛᴀ</code>
 🛠️ ʙᴜɪʟᴅ ꜱᴛᴀᴛᴜꜱ : <code>V4.2 [ ꜱᴛᴀʙʟᴇ ]</code>
 </b>"""
-    LOGO = """
-  ____  _ _            _  __  ______        _       
- / ___|(_) | ___ _ __ | |_\ \/ / __ )  ___ | |_ ____
- \___ \| | |/ _ \ '_ \| __|\  /|  _ \ / _ \| __|_  /
-  ___) | | |  __/ | | | |_ /  \| |_) | (_) | |_ / / 
- |____/|_|_|\___|_| |_|\__/_/\_\____/ \___/ \__/___|
-                                                                                                                                                                            
-𝙱𝙾𝚃 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 𝙿𝚁𝙾𝙿𝙴𝚁𝙻𝚈...."""
+    LOGO = """𝙱𝙾𝚃 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 𝙿𝚁𝙾𝙿𝙴𝚁𝙻𝚈...."""
 
     ADMIN_CMD = """ʜᴇʏ 👋,
 
