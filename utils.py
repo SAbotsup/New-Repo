@@ -66,6 +66,35 @@ async def is_req_subscribed(bot, query):
             return True
     return False
 
+async def is_req_subscribed2(bot, query):
+    if await db.find_join_req(query.from_user.id):
+        return True
+    try:
+        user2 = await bot.get_chat_member(AUTH_CHANNEL2, query.from_user.id)
+    except UserNotParticipant:
+        pass
+    except Exception as e:
+        print(e)
+    else:
+        if user.status != enums.ChatMemberStatus.BANNED:
+            return True
+    return False
+
+async def is_req_subscribed3(bot, query):
+    if await db.find_join_req(query.from_user.id):
+        return True
+    try:
+        user3 = await bot.get_chat_member(AUTH_CHANNEL3, query.from_user.id)
+    except UserNotParticipant:
+        pass
+    except Exception as e:
+        print(e)
+    else:
+        if user.status != enums.ChatMemberStatus.BANNED:
+            return True
+    return False
+    
+
 async def is_subscribed(bot, user_id, channel_id):
     try:
         user = await bot.get_chat_member(channel_id, user_id)
@@ -77,7 +106,32 @@ async def is_subscribed(bot, user_id, channel_id):
         if user.status != enums.ChatMemberStatus.BANNED:
             return True
     return False
+
+async def is_subscribed2(bot, user_id, channel_id):
+    try:
+        user = await bot.get_chat_member(channel_id, user_id)
+    except UserNotParticipant:
+        pass
+    except Exception as e:
+        pass
+    else:
+        if user.status != enums.ChatMemberStatus.BANNED:
+            return True
+    return False
     
+async def is_subscribed3(bot, user_id, channel_id):
+    try:
+        user = await bot.get_chat_member(channel_id, user_id)
+    except UserNotParticipant:
+        pass
+    except Exception as e:
+        pass
+    else:
+        if user.status != enums.ChatMemberStatus.BANNED:
+            return True
+    return False
+
+
 async def is_check_admin(bot, chat_id, user_id):
     try:
         member = await bot.get_chat_member(chat_id, user_id)
