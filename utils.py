@@ -469,7 +469,7 @@ async def log_error(client, error_message):
     except Exception as e:
         print(f"Failed to log error: {e}")
 
-def get_status():
+def get_greeting():
     tz = pytz.timezone('Asia/Kolkata')
     hour = datetime.now(tz).time().hour
     if 5 <= hour < 12:
