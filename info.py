@@ -54,8 +54,13 @@ OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Shahilakhtar')
 UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/SA_Bots')
 
 #Force Subscription Channel (Put Same Channel Id In Both Veriables)
-AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1001835344717')) 
+auth_channel = int(environ.get('AUTH_CHANNEL', '-1001835344717')) 
+auth_channel2 = int(environ.get('AUTH_CHANNEL2', '-1001835344717'))
+auth_channel3 = int(environ.get('AUTH_CHANNEL3', '-1001835344717'))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1001835344717'))
+AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
+AUTH_CHANNEL2 = int(auth_channel2) if auth_channel2 and id_pattern.search(auth_channel2) else None
+AUTH_CHANNEL3 = int(auth_channel3) if auth_channel3 and id_pattern.search(auth_channel3) else None
 
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001898144891')) #Verification Channel Id 
