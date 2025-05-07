@@ -164,41 +164,37 @@ async def start(client, message):
 
     try:
         settings = await get_settings(int(data.split("_", 2)[1]))
-        if settings.get('fsub_id', AUTH_CHANNEL) == AUTH_REQ_CHANNEL:
-            if AUTH_REQ_CHANNEL and not await is_req_subscribed(client, message):
-                try:
-                    invite_link = await client.create_chat_invite_link(int(AUTH_REQ_CHANNEL), creates_join_request=True)
-                except ChatAdminRequired:
-                    logger.error("Make sure Bot is admin in Forcesub channel")
-                    return
-                btn = [[
-                    InlineKeyboardButton("⛔️ ᴊᴏɪɴ ɴᴏᴡ ⛔️", url=invite_link.invite_link)
-                ]]
-                
-         if settings.get('fsub_id2', AUTH_CHANNEL2) == AUTH_REQ_CHANNEL2:
-            if AUTH_REQ_CHANNEL2 and not await is_req_subscribed2(client, message):
-                try:
-                    invite_link = await client.create_chat_invite_link(int(AUTH_REQ_CHANNEL), creates_join_request=True) 
-                    invite_link2 = await client.create_chat_invite_link(int(AUTH_REQ_CHANNEL2), creates_join_request=True)
-                except ChatAdminRequired:
-                    logger.error("Make sure Bot is admin in Forcesub channel")
-                    return
-                btn = [[
-                    InlineKeyboardButton("⛔️ ᴊᴏɪɴ ɴᴏᴡ ⛔️", url=invite_link.invite_link)],
-                    [InlineKeyboardButton("⛔️ ᴊᴏɪɴ ɴᴏᴡ ⛔️", url=invite_link2.invite_link)]]
-                
-          if settings.get('fsub_id2', AUTH_CHANNEL2) == AUTH_REQ_CHANNEL2:
-            if AUTH_REQ_CHANNEL2 and not await is_req_subscribed2(client, message):
-                try:
-                    invite_link = await client.create_chat_invite_link(int(AUTH_REQ_CHANNEL), creates_join_request=True) 
-                    invite_link2 = await client.create_chat_invite_link(int(AUTH_REQ_CHANNEL2), creates_join_request=True)
-                except ChatAdminRequired:
-                    logger.error("Make sure Bot is admin in Forcesub channel")
-                    return
-                btn = [[
-                    InlineKeyboardButton("⛔️ ᴊᴏɪɴ ɴᴏᴡ ⛔️", url=invite_link.invite_link)],
-                    [InlineKeyboardButton("⛔️ ᴊᴏɪɴ ɴᴏᴡ ⛔️", url=invite_link2.invite_link)]
-                    [InlineKeyboardButton("⛔️ ᴊᴏɪɴ ɴᴏᴡ ⛔️", url=invite_link3.invite_link)]]
+        # List of required channel IDs
+required_channels = []
+
+if settings.get('fsub_id1', AUTH_CHANNEL) == AUTH_REQ_CHANNEL:
+    required_channels.append(AUTH_REQ_CHANNEL)
+
+if settings.get('fsub_id2', AUTH_CHANNEL2) == AUTH_REQ_CHANNEL2:
+    required_channels.append(AUTH_REQ_CHANNEL2)
+
+if settings.get('fsub_id3', AUTH_CHANNEL3) == AUTH_REQ_CHANNEL3:
+    required_channels.append(AUTH_REQ_CHANNEL3)
+
+# List to store buttons
+btn = []
+
+for channel in required_channels:
+    if not await is_req_subscribed(client, message, channel):
+        try:
+            invite_link = await client.create_chat_invite_link(int(channel), creates_join_request=True)
+            btn.append([InlineKeyboardButton("⛔️ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ⛔️", url=invite_link.invite_link)])
+        except Exception as e:
+            print(f"Failed to create invite link for {channel}: {e}")
+
+# If there are channels to join, prompt user
+if btn:
+    await message.reply_text(
+        "🔒 You need to join the required channels to use this bot.",
+        reply_markup=InlineKeyboardMarkup(btn)
+    )
+    return
+
                 
                 
                 if message.command[1] != "subscribe":
